@@ -1,0 +1,51 @@
+.btn-text {
+  &:link,
+  &:visited{
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: $color-primary-dark;
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary-dark;
+    padding: 3px;
+    animation: all .2s;
+  }
+
+  &:hover {
+    background-color: $color-primary-medium;
+    color: $color-secondary;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
+    transform: translateY(0);
+  }
+}
+
+.btn__maximes--self {
+  &:link,
+  &:visited {
+    font-size: 2.8rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: $color-primary-dark;
+    text-decoration: none;
+    border-bottom: 3px solid $color-primary-medium;
+    border-radius: 3px;
+    padding: 2rem;
+    animation: all .4s;
+
+    &:hover {
+      background-color: $color-primary-medium;
+      color: $color-secondary;
+      box-shadow: 0 3rem 4rem rgba($color-black, 0.2);
+      transform: translateY(-2px) scale(1.5);
+    }
+
+    &:active {
+      box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
+      transform: translateY(0);
+    }
+  }
+}

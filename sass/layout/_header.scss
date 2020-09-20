@@ -1,0 +1,23 @@
+.header {
+  height: 95vh;
+  background-image:
+  linear-gradient(to right bottom,
+  rgba($color-primary-light, 0.8),
+  rgba($color-primary-dark, 0.8)),
+  url(../img/imageHeader.jpg);
+  background-size: 15rem 20rem;
+  background-repeat: repeat;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 100%, 53% 69%, 0% 100%, 0 50%, 0% 0%);
+
+
+  &__title-box {
+  position: absolute;
+  width:70%;
+  top:25%;
+  left: 15%;
+  text-align: center;
+
+    }
+  }

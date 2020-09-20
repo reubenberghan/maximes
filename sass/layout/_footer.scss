@@ -1,0 +1,31 @@
+.footer {
+    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+    padding: 8rem 0;
+    font-size: 1.9rem;
+    clip-path: polygon(50% 26%, 100% 0, 100% 100%, 0 100%, 0 0);
+
+    &__navigation {
+        display: inline-block;
+        padding-top: 3rem;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__copyright {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+}
+
